@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu h1 {
+    color: rgb(255, 170, 0);
+    text-align: center;
+    font-weight: 800;
+    padding: 1rem;
+    padding-bottom: 0.8rem;
+    font-family: 'arial black';
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    margin-top: 0.2rem;
+}
+
+.first {
+    display: flex;
+    width: 70%;
+    padding: 1.5rem;
+    margin-left: 10%;
+    gap: 1rem;
+}
+.data h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.data h3 {
+    font-family: cursive;
+}
+
+.second {
+    display: flex;
+    width: 70%;
+    padding: 1.5rem;
+    margin-left: 20%;
+    gap: 1rem;
+}
+.second .data {
+    width: 50%;
+}
+
+.third {
+    display: flex;
+    width: 70%;
+    padding: 1.5rem;
+    margin-left: 10%;
+    gap: 1rem;
+}
+.third .pic img {
+    width: 90%;
+    height: 95%;
+}
+
+.fourth {
+    display: flex;
+    width: 70%;
+    padding: 1.5rem;
+    margin-left: 20%;
+    gap: 1.5rem;
+}
+
+.fourth .data {
+    width: 50%;
+    margin-right: 10%;
+}
+.fourth .pic img {
+    width: 90%;
+    height: 95%;
+}
+
+button {
+    padding: 1rem;
+    color: black;
+    margin-left: 5rem;
+    background-color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
